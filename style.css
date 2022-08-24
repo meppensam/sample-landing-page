@@ -1,0 +1,182 @@
+/* Universal Tags */
+body {
+    margin: 0;
+    background: url(./images/vine.jpg);
+}
+/* Header Tags */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 250px;
+}
+
+.header-links {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 750px;
+    gap: 15px;
+}
+/*link needs fixing so that the highlight doesn't stick*/
+a:link {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #E5E7EB;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #E5E7EB;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+  }
+  
+
+/* Hero Tags */
+
+.hero {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center
+}
+
+.hero-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 450px;
+    font: bolder;
+    order: 1;
+}
+
+.hero-content {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+    margin-left: 250px;
+    width: 200px;
+    padding: 0;
+    order: 2;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    max-width: 125px;
+    order: 3;
+    padding: 6px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-left: 250px;
+    border-radius: 20%;
+    border-color: #1F2937;
+}
+
+/*parallax image*/
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 24px;
+    padding: 25px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+    border: 1px solid #1F2937;
+    border-radius: 1.25%;
+}
+
+.parallax {
+    background: url(./images/woods.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+/*Quote Block*/
+
+.quote-container {
+    background-color: #E5E7EB;
+    font: 36px;
+    color: #1F2937;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #1F2937;
+    border-radius: 1.25%;
+}
+
+/* Call Block */
+
+.call {
+    background-color: #3882F6;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px;
+    border-radius: 1.25%;
+}
+
+.call-main {
+    color:#1F2937;
+    background-color: #3882F6;
+    font-size: 36px;
+    padding: 25px;
+    text-align: left;
+}
+
+.call-sec {
+    color:#1F2937;
+    background-color: #3882F6;
+    font-size: 24px;
+}
+
+.call-btn {
+    display: flex;
+    background-color: #3882F6;
+    color: #1F2937;
+    max-width: 125px;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-left: 775px;
+    border-radius: 20%;
+    border-color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px;
+}
